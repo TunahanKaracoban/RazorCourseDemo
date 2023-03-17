@@ -1,3 +1,7 @@
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.AspNetCore.Mvc.RazorPages;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
